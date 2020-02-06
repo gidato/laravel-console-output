@@ -1,6 +1,6 @@
 {
-    "name": "gidato/laravel-container-extensions",
-    "description": "Extensions for Laravels Container and App",
+    "name": "gidato/laravel-console-output",
+    "description": "Extensions to catch the output from console commands",
     "keywords": [
         "gidato",
         "laravel",
