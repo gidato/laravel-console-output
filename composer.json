@@ -1,0 +1,29 @@
+{
+    "name": "gidato/laravel-container-extensions",
+    "description": "Extensions for Laravels Container and App",
+    "keywords": [
+        "gidato",
+        "laravel",
+        "factory",
+        "containers"
+    ],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^6.0",
+        "symfony/console": "^4.3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gidato\\Console\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
